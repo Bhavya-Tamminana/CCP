@@ -2,9 +2,9 @@
 int main() 
 {
     float far, cel;
-    printf("Enter a temp in farenheit: \n");
+    printf("Enter a temp in farenheit:");
     scanf("%f", &far);
     cel = (5.0/9) * (far - 32);
-    printf("%.2f°F is same as %.2f°C", far, cel);
+    printf("%.2f°F is same as %.2f°C \n", far, cel);
     return 0;
 }
